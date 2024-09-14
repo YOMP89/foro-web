@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#user-info button {
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+#new-thread, #threads {
+    margin-bottom: 40px;
+}
+
+#threads-list .thread {
+    border: 1px solid #bdc3c7;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.thread h3 {
+    margin-top: 0;
+}
+
+.thread .likes {
+    color: #e74c3c;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.thread .replies {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.reply {
+    border-top: 1px solid #ecf0f1;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}

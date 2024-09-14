@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Foro Comunitario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Foro Comunitario</h1>
+        <div id="user-info">
+            <span id="welcome-message"></span>
+            <button id="login-btn">Iniciar Sesión</button>
+            <button id="logout-btn" style="display:none;">Cerrar Sesión</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="new-thread" style="display:none;">
+            <h2>Crear Nuevo Hilo</h2>
+            <input type="text" id="thread-title" placeholder="Título del hilo">
+            <textarea id="thread-content" placeholder="Contenido del hilo"></textarea>
+            <button id="create-thread-btn">Crear Hilo</button>
+        </div>
+
+        <section id="threads">
+            <h2>Hilos Recientes</h2>
+            <div id="threads-list">
+                <!-- Lista de hilos -->
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
